@@ -1,0 +1,34 @@
+{% sw_extends '@Storefront/storefront/layout/footer/footer.html.twig' %}
+
+{% set showFixed = config('NetzpShariff6.config.showFixed') %}
+{% set offset = config('NetzpShariff6.config.offset') %}
+{% set buttonStyle = config('NetzpShariff6.config.buttonstyle') %}
+
+{% block layout_footer_payment_shipping_logos %}
+    {% if(config('NetzpShariff6.config.excludeHomepage') and activeRoute == 'frontend.home.page') %}
+    {% else %}
+        {% if(showFixed == 'footer') %}
+            <div class="netzp-shariff-center">
+                <div class="netzp-shariff-footer"
+                     {% if(buttonStyle == 'standard') %}style="width: 100%;"{% endif %}
+                >
+                    {% sw_include "@Storefront/storefront/shariff.html.twig" %}
+                </div>
+            </div>
+        {% elseif(showFixed != 'none') %}
+            <span class="netzp-shariff-{{ config('NetzpShariff6.config.showFixed') }}"
+                  {% if(offset > 0) %}
+                      style="{% if(showFixed == 'fixedleft' or showFixed == 'fixedright') %}bottom: {{ offset }}vh{% endif %}
+                             {% if(showFixed == 'fixedbottom') %}left: {{ offset }}vw{% endif %}"
+                  {% endif %}
+            >
+                {% if(showFixed == 'fixedleft' or showFixed == 'fixedright') %}
+                   {% sw_include "@Storefront/storefront/shariff.html.twig" with {'orientation': 'vertical', 'buttonstyle': 'icon'} %}
+                {% else %}
+                    {% sw_include "@Storefront/storefront/shariff.html.twig" with {'buttonstyle': 'icon'} %}
+                {% endif %}
+            </span>
+        {% endif %}
+    {% endif %}
+    {{ parent() }}
+{% endblock %}

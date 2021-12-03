@@ -1,0 +1,16 @@
+{% sw_extends '@Storefront/storefront/page/content/index.html.twig' %}
+
+{% block page_content %}
+    {{ parent() }}
+    {% if(config('NetzpShariff6.config.showPage') and
+            (page.cmsPage.type == 'page' or page.cmsPage.type == 'landingpage')) %}
+        {% if(config('NetzpShariff6.config.excludeHomepage') and activeRoute == 'frontend.home.page') %}
+        {% else %}
+            <div class="cms-section mt-3">
+                <div class="cms-section-default boxed">
+                    {% sw_include "@Storefront/storefront/shariff.html.twig" %}
+                </div>
+            </div>
+        {% endif %}
+    {% endif %}
+{% endblock %}

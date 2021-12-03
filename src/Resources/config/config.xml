@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Social via Shariff</title>
+        <title lang="de-DE">Social via Shariff</title>
+
+        <input-field type="bool">
+            <name>showProduct</name>
+            <label>Show social sharing buttons on product detail page</label>
+            <label lang="de-DE">Social Sharing Buttons auf der Produkt-Detailseite anzeigen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showPage</name>
+            <label>Show social sharing buttons on content pages</label>
+            <label lang="de-DE">Social Sharing Buttons auf der Inhaltsseiten anzeigen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>excludeHomepage</name>
+            <label>Exclude social sharing buttons on home page</label>
+            <label lang="de-DE">Social Sharing Buttons auf der Startseite verbergen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="single-select">
+            <name>showFixed</name>
+            <label>Show on footer or fixed</label>
+            <label lang="de-DE">Buttons im Footer oder fixiert anzeigen</label>
+            <defaultValue>fixedright</defaultValue>
+            <options>
+                <option>
+                    <id>none</id>
+                    <name>No</name>
+                    <name lang="de-DE">Nein</name>
+                </option>
+                <option>
+                    <id>footer</id>
+                    <name>Footer</name>
+                    <name lang="de-DE">Footer</name>
+                </option>
+                <option>
+                    <id>fixedleft</id>
+                    <name>Fixed on left side</name>
+                    <name lang="de-DE">Fixiert am linken Rand</name>
+                </option>
+                <option>
+                    <id>fixedright</id>
+                    <name>Fixed on right side</name>
+                    <name lang="de-DE">Fixiert am rechten Rand</name>
+                </option>
+                <option>
+                    <id>fixedbottom</id>
+                    <name>Fixed on bottom</name>
+                    <name lang="de-DE">Fixiert am unteren Rand</name>
+                </option>
+            </options>
+        </input-field>
+
+        <input-field type="int">
+            <name>offset</name>
+            <label>Offset in % (only when displaying fixed)</label>
+            <label lang="de-DE">Abstand in % (nur gültig wenn fixierte Darstellung gewählt)</label>
+            <helpText>fixed left/right: distance from bottom, fixed bottom: distance from left</helpText>
+            <helpText lang="de-DE">fixiert links/rechts: Abstand von unten, fixiert unten: Abstand von links</helpText>
+            <defaultValue>10</defaultValue>
+            <min>0</min>
+            <max>100</max>
+        </input-field>
+    </card>
+
+    <card>
+        <title>Styling</title>
+        <title lang="de-DE">Aussehen</title>
+
+        <input-field type="single-select">
+            <name>buttonstyle</name>
+            <label>Button style</label>
+            <label lang="de-DE">Button-Stil</label>
+            <defaultValue>icon</defaultValue>
+            <options>
+                <option>
+                    <id>standard</id>
+                    <name>Icon + label</name>
+                    <name lang="de-DE">Icon + Text</name>
+                </option>
+                <option>
+                    <id>icon</id>
+                    <name>Icon (square)</name>
+                    <name lang="de-DE">Icon (Quadrat)</name>
+                </option>
+                <option>
+                    <id>iconcircle</id>
+                    <name>Icon (circle)</name>
+                    <name lang="de-DE">Icon (Kreis)</name>
+                </option>
+            </options>
+        </input-field>
+
+        <input-field type="single-select">
+            <name>theme</name>
+            <label>Theme</label>
+            <label lang="de-DE">Design</label>
+            <defaultValue>standard</defaultValue>
+            <options>
+                <option>
+                    <id>standard</id>
+                    <name>Standard</name>
+                    <name lang="de-DE">Standard</name>
+                </option>
+                <option>
+                    <id>grey</id>
+                    <name>grey</name>
+                    <name lang="de-DE">grau</name>
+                </option>
+                <option>
+                    <id>white</id>
+                    <name>white</name>
+                    <name lang="de-DE">weiss</name>
+                </option>
+            </options>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showFacebook</name>
+            <label>Show button for Facebook</label>
+            <label lang="de-DE">Button für Facebook anzeigen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showPinterest</name>
+            <label>Show button for Pinterest</label>
+            <label lang="de-DE">Button für Pinterest anzeigen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showTwitter</name>
+            <label>Show button for Twitter</label>
+            <label lang="de-DE">Button für Twitter anzeigen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showWhatsapp</name>
+            <label>Show button for Whatsapp</label>
+            <label lang="de-DE">Button für Whatsapp anzeigen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showTelegram</name>
+            <label>Show button for Telegram</label>
+            <label lang="de-DE">Button für Telegram anzeigen</label>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showXing</name>
+            <label>Show button for Xing</label>
+            <label lang="de-DE">Button für Xing anzeigen</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showLinkedin</name>
+            <label>Show button for LinkedIn</label>
+            <label lang="de-DE">Button für LinkedIn anzeigen</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showPocket</name>
+            <label>Show button for Pocket</label>
+            <label lang="de-DE">Button für Pocket anzeigen</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showDiaspora</name>
+            <label>Show button for Diaspora</label>
+            <label lang="de-DE">Button für Diaspora anzeigen</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showThreema</name>
+            <label>Show button for Threema</label>
+            <label lang="de-DE">Button für Threema anzeigen</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showMail</name>
+            <label>Show button for Mail</label>
+            <label lang="de-DE">Button für Mail anzeigen</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+
+        <input-field type="bool">
+            <name>showPrint</name>
+            <label>Show print button</label>
+            <label lang="de-DE">Druck-Button anzeigen</label>
+            <defaultValue>false</defaultValue>
+        </input-field>
+    </card>
+
+</config>
