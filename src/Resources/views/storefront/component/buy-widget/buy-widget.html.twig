@@ -1,0 +1,8 @@
+{% sw_extends '@Storefront/storefront/component/buy-widget/buy-widget.html.twig' %}
+
+{% block buy_widget_ordernumber_container %}
+    {{ parent() }}
+    {% if config('NetzpShariff6.config.showProduct') %}
+        {% sw_include "@Storefront/storefront/shariff.html.twig" %}
+    {% endif %}
+{% endblock %}

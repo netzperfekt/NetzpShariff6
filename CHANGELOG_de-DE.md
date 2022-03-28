@@ -1,5 +1,5 @@
 # 1.1.0
-- Change: support for custom product layouts
+- Change: Unterstützung für Individuelle Produkt-Layouts
 
 # 1.0.3
 - Fix: sticky buttons also excluded from home page (if set in plugin configuration)
