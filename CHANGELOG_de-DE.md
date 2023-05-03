@@ -1,3 +1,14 @@
+# 2.0.0
+- Support für SW 6.5
+* +++ ACHTUNG +++ **Aktualisierung auf SW 6.5**
+* Deaktivieren Sie zunächst alle Plugins (nicht deinstallieren!)
+* Aktualisieren Sie dann den Shop auf SW 6.5
+* Aktualisieren Sie dann die Plugins auf die jeweils kompatible Version für SW 6.5
+* Aktivieren Sie alle Plugins wieder
+* Führen Sie das Update für jedes Plugin einzeln durch (klick auf die Versionsnummer des jeweiligen Plugins)
+* Shopware hat in der Version 6.5 erhebliche Änderungen vorgenommen. Die Anpassung unserer Plugins war hier sehr aufwändig und hat viel Zeit beansprucht.
+* Sollte etwas nicht wie bisher funktionieren, kontaktieren Sie bitte unseren Plugin-Support unter https://plugins.netzperfekt.de/support
+
 # 1.1.0
 - Change: Unterstützung für Individuelle Produkt-Layouts
 

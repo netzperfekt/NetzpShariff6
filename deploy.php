@@ -1,3 +1,3 @@
 <?php namespace Deployer;
 
-import('./../../../../../deployer/deployer-sw64.php');
+import('./../../../../deployer/deployer-sw65.php');

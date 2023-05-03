@@ -34,9 +34,7 @@ class Uninstaller
         $criteria->addFilter(new ContainsFilter('configurationKey', self::PLUGIN_PREFIX));
         $idSearchResult = $repoConfig->searchIds($criteria, $context);
 
-        $ids = \array_map(static function ($id) {
-            return ['id' => $id];
-        }, $idSearchResult->getIds());
+        $ids = \array_map(static fn($id) => ['id' => $id], $idSearchResult->getIds());
 
         $repoConfig->delete($ids, $context);
     }

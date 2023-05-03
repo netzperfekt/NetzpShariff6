@@ -13,14 +13,12 @@ class NetzpShariff6 extends Plugin
     public function install(InstallContext $context): void
     {
         parent::install($context);
-
         (new Installer($this->container))->install();
     }
 
     public function uninstall(UninstallContext $context): void
     {
         parent::uninstall($context);
-
         (new Uninstaller($this->container))->uninstall($context);
     }
 }

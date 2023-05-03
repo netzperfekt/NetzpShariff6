@@ -1,7 +1,7 @@
 {
   "name": "netzp/netzpshariff6",
   "description": "Social Sharing via Shariff",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "type": "shopware-platform-plugin",
   "license": "proprietary",
   "authors": [
@@ -16,9 +16,7 @@
     }
   },
   "require": {
-    "shopware/core": ">=6.4.0",
-    "shopware/administration": "*",
-    "shopware/storefront": "*"
+    "shopware/core": "^6.5.0"
   },
   "extra": {
     "shopware-plugin-class": "NetzpShariff6\\NetzpShariff6",
@@ -29,8 +27,8 @@
       "en-GB": "Social Media Sharing via Shariff"
     },
     "description": {
-      "de-DE": "Teile die Inhalte Deines Shops rechtskonform auf sozialen Medienplattformen.",
-      "en-GB": "Share the content of your shop on social media platforms in compliance with the law."
+      "de-DE": "Die App bindet das bekannte Social Sharing Tool \"Shariff\" (c't) ein und bietet viele Optionen. Die Buttons können auf der Produktseite, im Footer und fixiert angezeigt werden.",
+      "en-GB": "This app integrates the well-known social sharing tool \"Shariff\" (c't) and offers many options. The buttons can be displayed on the product page, in the footer and also fixed."
     },
     "manufacturerLink": {
       "de-DE": "https://plugins.netzperfekt.de",
