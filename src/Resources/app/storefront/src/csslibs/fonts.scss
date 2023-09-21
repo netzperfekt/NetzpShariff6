@@ -1,16 +1,16 @@
 /* updates:
-  - modify font paths: /bundles/netzpshariff6/static/font/
+  - modify font paths: /bundles/netzpshariff6/font/
   - modify linkedin class name: .fa-linkedin-in:before {
   - modify .fab { -> .fas, .fab {
   - .fas, .fab { font-familie - don't use !important / problems when FA is loaded at the same time }
  */
 @font-face {
   font-family: 'icomoon';
-  src:  url('/bundles/netzpshariff6/static/font/icomoon.eot?y3dlpj');
-  src:  url('/bundles/netzpshariff6/static/font/icomoon.eot?y3dlpj#iefix') format('embedded-opentype'),
-  url('/bundles/netzpshariff6/static/font/icomoon.ttf?y3dlpj') format('truetype'),
-  url('/bundles/netzpshariff6/static/font/icomoon.woff?y3dlpj') format('woff'),
-  url('/bundles/netzpshariff6/static/font/icomoon.svg?y3dlpj#icomoon') format('svg');
+  src:  url('/bundles/netzpshariff6/font/icomoon.eot?y3dlpj');
+  src:  url('/bundles/netzpshariff6/font/icomoon.eot?y3dlpj#iefix') format('embedded-opentype'),
+  url('/bundles/netzpshariff6/font/icomoon.ttf?y3dlpj') format('truetype'),
+  url('/bundles/netzpshariff6/font/icomoon.woff?y3dlpj') format('woff'),
+  url('/bundles/netzpshariff6/font/icomoon.svg?y3dlpj#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

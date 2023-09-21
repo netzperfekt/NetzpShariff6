@@ -1,3 +1,6 @@
+# 2.0.1
+- Asset path for fonts adjusted
+
 # 2.0.0
 - Support for SW 6.5
 * +++ ATTENTION +++ **Update to SW 6.5**

@@ -1,3 +1,6 @@
+# 2.0.1
+- Asset-Pfad für Fonts angepasst
+
 # 2.0.0
 - Support für SW 6.5
 * +++ ACHTUNG +++ **Aktualisierung auf SW 6.5**
