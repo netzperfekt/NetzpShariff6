@@ -1,3 +1,6 @@
+# 2.1.0
+- Aktualisierung Shariff-Script auf v3.2.2
+
 # 2.0.1
 - Asset-Pfad für Fonts angepasst
 

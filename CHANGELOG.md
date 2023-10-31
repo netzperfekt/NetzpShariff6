@@ -1,3 +1,6 @@
+# 2.1.0
+- Update Shariff script to v3.2.2
+
 # 2.0.1
 - Asset path for fonts adjusted
 
