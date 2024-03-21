@@ -1,3 +1,7 @@
+# 3.0.0
+- Support for SW 6.6
+- Update Shariff script to v3.3.0
+
 # 2.1.0
 - Update Shariff script to v3.2.2
 

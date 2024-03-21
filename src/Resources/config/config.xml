@@ -140,8 +140,8 @@
 
         <input-field type="bool">
             <name>showTwitter</name>
-            <label>Show button for Twitter</label>
-            <label lang="de-DE">Button für Twitter anzeigen</label>
+            <label>Show button for X</label>
+            <label lang="de-DE">Button für X anzeigen</label>
             <defaultValue>true</defaultValue>
         </input-field>
 
