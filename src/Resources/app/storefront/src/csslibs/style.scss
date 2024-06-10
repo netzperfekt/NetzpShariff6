@@ -5,7 +5,7 @@
 
 .button-style-standard {
   text-align: left;
-  .fab, .fas {
+  .sfab, .sfas, sfar {
     padding-left: 0.3125rem !important;
   }
 }
@@ -84,9 +84,9 @@
       .share_count {
         line-height: 35px !important;
       }
-      .fab,
-      .far,
-      .fas {
+      .sfab,
+      .sfar,
+      .sfas {
         width: 35px !important;
         line-height: 35px !important;
       }

@@ -1,3 +1,6 @@
+# 3.0.1
+- CSS-Klassen umbenannt, um Interferenzen mit anderen FontAwesome-Versionen zu umgehen
+
 # 3.0.0
 - Support für SW 6.6
 - Aktualisierung Shariff-Script auf v3.3.0
