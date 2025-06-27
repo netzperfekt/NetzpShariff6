@@ -1,3 +1,6 @@
+# 4.0.0
+- Support for SW 6.7
+
 # 3.0.1
 -  CSS classes renamed to avoid interferences with other FontAwesome versions
 
