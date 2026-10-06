@@ -1,7 +1,7 @@
 {
   "name": "netzp/netzpshariff6",
   "description": "Social Sharing via Shariff",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "type": "shopware-platform-plugin",
   "license": "AGPLv3",
   "authors": [

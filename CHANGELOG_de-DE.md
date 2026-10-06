@@ -1,3 +1,6 @@
+# 5.0.0
+- Lizenzänderung AGPLv3
+
 # 4.0.0
 - Support für SW 6.7
 

@@ -1,3 +1,6 @@
+# 5.0.0
+- License changed to AGPLv3
+
 # 4.0.0
 - Support for SW 6.7
 
