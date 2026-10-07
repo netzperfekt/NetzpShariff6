@@ -3,7 +3,7 @@
   "description": "Social Sharing via Shariff",
   "version": "5.0.0",
   "type": "shopware-platform-plugin",
-  "license": "AGPLv3",
+  "license": "AGPL-3.0-or-later",
   "authors": [
     {
       "name": "netzperfekt",
